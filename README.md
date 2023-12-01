@@ -1,26 +1,4 @@
-# ts-aoc-starter
-
-## Getting Started
-
-```terminal
-npx create-ts-aoc-starter
-```
-
-This will create a new workspace in the current directory with the following structure:
-
-```file-tree
-ts-aoc-starter
-├── puzzles
-│   ├── day-1
-│   │   ├── day-1-a.data.txt
-│   │   ├── day-1-a.sample-data.txt
-│   │   ├── day-1-a.ts
-│   │   ├── day-1-b.data.txt
-│   │   ├── day-1-b.sample-data.txt
-│   │   └── day-1-b.ts
-│   ├── day-2
-│   ├── day-3
-```
+# Advent of Code 2023
 
 ## Running the Puzzles
 
