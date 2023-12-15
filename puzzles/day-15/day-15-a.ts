@@ -1,9 +1,12 @@
 import { readData } from '../../shared.ts';
 import chalk from 'chalk';
 
+import { hash } from "./hash.ts";
+
 export async function day15a(dataPath?: string) {
   const data = await readData(dataPath);
-  return 0;
+
+  return data.filter(Boolean).join("").split(",").map(hash).reduce((a,b) => a+b);
 }
 
 const answer = await day15a();
