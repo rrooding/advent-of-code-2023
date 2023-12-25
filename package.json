@@ -106,6 +106,7 @@
   },
   "private": true,
   "dependencies": {
+    "@graph-algorithm/minimum-cut": "^2.0.0",
     "@type-cacheable/core": "^13.0.0",
     "@type-cacheable/lru-cache-adapter": "^16.0.1",
     "chalk": "latest",
